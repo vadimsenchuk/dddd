@@ -1,0 +1,17 @@
+{
+  "name": "test_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "browser-sync start --server --files '.'"
+  },
+  "author": "vadim_senchuk",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}

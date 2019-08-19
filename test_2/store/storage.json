@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "phone"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "phone"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "phone"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "phone"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "phone"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "phone"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "phone"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "other"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "other"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "accessory"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "notebook"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "watch"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "watch"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "other"
+    },
+    {
+      "title": "IPhone 5",
+      "price": "$519.00",
+      "image": "images/product.png",
+      "data": "notebook"
+    }
+  ]
+}

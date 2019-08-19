@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="row">
+        <div class="logo header__logo">
+          <a href="/"><img src="images/Logo.png" alt="logo"/></a>
+        </div>
+        <nav class="navbar">
+          <ul class="items">
+            <li class="item"><a href="#" class="link">Услуги</a></li>
+            <li class="item"><a href="#" class="link">Проекты</a></li>
+            <li class="item"><a href="#" class="link">О нас</a></li>
+            <li class="item"><a href="#" class="link">Цены</a></li>
+            <li class="item"><a href="#" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="tel header__tel">
+          <a href="tel: +73422250075">+7 342 225-00-75</a>
+        </div>
+        <button type="button" class="btn header__btn">Консультация</button>
+      </div>
+      <div class="container">
+        <div class="info">
+          <div class="info__title">
+            Разработка и продвижение сайтов
+          </div>
+          <div class="info__text">
+            Эффективные решения для бизнеса в интернете
+          </div>
+          <button class="btn info__btn">Посмотреть проекты<span></span></button>
+        </div>
+      </div>
+      <div class="owl-carousel carousel">
+        <img src="images/slider.png" alt="slider" />
+        <img src="images/slider.png" alt="slider" />
+        <img src="images/slider.png" alt="slider" />
+        <img src="images/slider.png" alt="slider" />
+        <img src="images/slider.png" alt="slider" />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="content">
+          <div class="cards">
+            <a href="#" class="card card--oil">
+              <div class="card__cover"></div>
+              <div class="card__title">
+                сайт официального дистрибьютора «Exxon Mobil»
+              </div>
+              <div class="card__info">
+                <span>корпоративный сайт</span>
+              </div>
+            </a>
+            <a href="#" class="card card--house">
+              <div class="card__cover"></div>
+              <div class="card__title">
+                Бот-консультант федерального застройщика «Талан»
+              </div>
+              <div class="card__info">
+                <span>чат-бот</span>
+              </div>
+            </a>
+            <a href="#" class="card card--girl">
+              <div class="card__cover"></div>
+              <div class="card__title">сайт онлайн фитнес-клуба «TeenWeek»</div>
+              <div class="card__info">
+                <span>веб-приложение</span>
+                <span>брендинг</span>
+              </div>
+            </a>
+            <a href="#" class="card card--jacket">
+              <div class="card__cover"></div>
+              <div class="card__title">
+                дизайн и надежная поддержка магазина «Baseg»
+              </div>
+              <div class="card__info">
+                <span>интернет-магазин</span>
+              </div>
+            </a>
+            <a href="#" class="card card--engine">
+              <div class="card__cover"></div>
+              <div class="card__title">
+                Красивые решения для производства насосов ППД
+              </div>
+              <div class="card__info">
+                <span>корпоративный сайт</span>
+              </div>
+            </a>
+            <a href="#" class="card card--wire">
+              <div class="card__cover"></div>
+              <div class="card__title">
+                Сайт кабельной и электропродукции «Кайрос инжиниринг»
+              </div>
+              <div class="card__info">
+                <span>корпоративный сайт</span>
+              </div>
+            </a>
+            <a href="#" class="card card--area">
+              <div class="card__cover"></div>
+              <div class="card__title">
+                Ярко представили работы для «ГеоСпецТехнология»
+              </div>
+              <div class="card__info">
+                <span>корпоративный сайт</span>
+                <span>брендинг</span>
+              </div>
+            </a>
+          </div>
+          <button class="btn content__btn">Показать еще <span></span></button>
+        </div>
+      </div>
+    </main>
+    <div class="popup">
+      <div class="popup__box">
+        <div class="popup__close"></div>
+        <div class="popup__wrap">
+          <form action="v.o.senchuk@gmail.com">
+            <div class="form__row">
+              <div class="popup__title">С РАДОСТЬЮ ОБСУДИМ ВАШУ ИДЕЮ</div>
+              <div class="popup__info">
+                Просто расскажите о своих задумках, а мы придумаем, каких
+                воплотить!
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="userName"
+                  placeholder="Представьтесь, пожалуйста"
+                  required
+                />
+                <input
+                  type="text"
+                  name="userPhone"
+                  placeholder="+7 (___) ___-__-__"
+                  required
+                />
+              </div>
+              <textarea
+                name="description"
+                class="popup__area"
+                placeholder="Расскажите немного о Вашем проекте"
+                required
+              ></textarea>
+            </div>
+            <input type="file" id="file" />
+            <label for="file" class="popup__file"
+              ><span>Прикрепить файл</span></label
+            >
+            <div class="form-control">
+              <button type="submit" class="btn popup__btn">
+                Отправить
+              </button>
+              <input type="checkbox" name="check" id="check" required />
+              <label for="check" class="popup__checkbox">
+                <span
+                  >Я согласен на обработку <u>персональных данных</u></span
+                ></label
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

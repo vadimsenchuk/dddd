@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/bootstrap.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Test2</title>
+  </head>
+  <body>
+    <div class="my-container">
+      <nav class="navbar">
+        <ul class="items">
+          <li class="item">
+            <input type="checkbox" name="phone" id="phone" />
+            <label class="checkbox" for="phone"><span>Смартфоны</span></label>
+          </li>
+          <li class="item">
+            <input type="checkbox" name="notebook" id="notebook" />
+            <label class="checkbox" for="notebook"
+              ><span>Планшеты/Ноутбуки</span></label
+            >
+          </li>
+          <li class="item">
+            <input type="checkbox" name="watch" id="watch" />
+            <label class="checkbox" for="watch"><span>Часы</span></label>
+          </li>
+          <li class="item">
+            <input type="checkbox" name="accessory" id="accessory" />
+            <label class="checkbox" for="accessory"
+              ><span>Аксессуары</span></label
+            >
+          </li>
+          <li class="item">
+            <input type="checkbox" name="other" id="other" />
+            <label class="checkbox" for="other"><span>Другое</span></label>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <div class="row"></div>
+      </section>
+      <div class="info">
+        <span>*</span> Указанные цены включают стоимость товара и доставки
+      </div>
+    </div>
+    <div class="popup">
+      <div class="popup__box">
+        <div class="popup__header">
+          <div class="popup__title"></div>
+          <div class="popup__close"></div>
+        </div>
+        <hr />
+        <div class="popup__wrap">
+          <div class="popup__image"><img src="" alt="" /></div>
+          <div class="popup__info">
+            <div class="popup__group">
+              <label for="memory">Память</label>
+              <select name="memory" id="memory">
+                <option value="64">64Gb</option>
+                <option value="128">128Gb</option>
+              </select>
+            </div>
+            <div class="popup__group">
+              <label for="color">Цвет</label>
+              <select name="color" id="color">
+                <option value="white">Белый</option>
+                <option value="grey">Серый</option>
+                <option value="gold">Золотой</option>
+              </select>
+            </div>
+            <div class="popup__group">
+              <label for="number">Количество</label>
+              <select name="number" id="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div class="popup__control">
+              <div class="popup__price"></div>
+              <button type="button" class="btn popup__btn">Купить</button>
+            </div>
+            <a href="#" class="popup__text">Посмотреть в магазине</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
